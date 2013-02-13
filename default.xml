@@ -12,8 +12,8 @@
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
-  <remote  name="mysteriousrom"
-	   fetch="https://github.com/Mysterious-ROM/" />
+  <remote  name="sebelo06"
+	   fetch="https://github.com/sebelo06/" />
 		   
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
@@ -304,9 +304,9 @@
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/ROMControl" name="Mysterious-ROM/packages_apps_ROMControl" remote="mysteriousrom" revision="master" />
+  <project path="packages/apps/ROMControl" name="sebelo06/packages_apps_ROMControl" remote="sebelo06" revision="jb-mr1" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="Mysterious-ROM/packages_apps_Settings" remote="mysteriousrom" revision="master" />
+  <project path="packages/apps/Settings" name="sebelo06/packages_apps_Settings" remote="sebelo06" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
