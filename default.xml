@@ -5,14 +5,17 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
-  <remote  name="ptichalouf"
-           fetch="https://github.com/ptichalouf/"
+  <remote  name="aokpf"
+           fetch="https://github.com/"
            review="gerrit.sudoservers.com" />
 
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod/"
            review="review.cyanogenmod.com" />
-
+           
+  <remote  name="ptichalouf"
+           fetch="https://github.com/ptichalouf/" />
+           
   <default revision="refs/tags/android-4.2.1_r1"
            remote="aosp"
            sync-j="4" />
